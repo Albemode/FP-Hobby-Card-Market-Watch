@@ -9,6 +9,14 @@
   </head>
 
   <body>
+    <nav>
+      <ul class="">
+<!--                        <li class="active"><a href="#">Home</a></li>-->
+          <li><%= link_to "", user_path(current_user) %></li>
+
+          <li><%= link_to "", _path %></li>
+          <li><%= link_to "", _path %></li>
+    </nav>
     <%= yield %>
   </body>
 </html>
