@@ -1,0 +1,17 @@
+<%= form_for(buddyfight) do |f| %>
+  <% if buddyfight.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(buddyfight.errors.count, "error") %> prohibited this buddyfight from being saved:</h2>
+
+      <ul>
+      <% buddyfight.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,2 @@
+class Pricewalkthrough < ApplicationRecord
+end

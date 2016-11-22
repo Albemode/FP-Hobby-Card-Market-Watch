@@ -1,0 +1,2 @@
+class Buddyfight < ApplicationRecord
+end

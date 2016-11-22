@@ -1,0 +1,1 @@
+json.array! @pricewalkthroughs, partial: 'pricewalkthroughs/pricewalkthrough', as: :pricewalkthrough

@@ -1,0 +1,1 @@
+json.partial! "forceofwills/forceofwill", forceofwill: @forceofwill

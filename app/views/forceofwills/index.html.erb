@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Forceofwills</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @forceofwills.each do |forceofwill| %>
+      <tr>
+        <td><%= link_to 'Show', forceofwill %></td>
+        <td><%= link_to 'Edit', edit_forceofwill_path(forceofwill) %></td>
+        <td><%= link_to 'Destroy', forceofwill, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Forceofwill', new_forceofwill_path %>

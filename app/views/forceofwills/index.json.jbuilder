@@ -1,0 +1,1 @@
+json.array! @forceofwills, partial: 'forceofwills/forceofwill', as: :forceofwill

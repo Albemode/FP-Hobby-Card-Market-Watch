@@ -1,0 +1,1 @@
+json.array! @buddyfights, partial: 'buddyfights/buddyfight', as: :buddyfight

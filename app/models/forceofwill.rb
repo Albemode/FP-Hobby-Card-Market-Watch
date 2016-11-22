@@ -1,0 +1,2 @@
+class Forceofwill < ApplicationRecord
+end

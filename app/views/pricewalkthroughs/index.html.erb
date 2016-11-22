@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Pricewalkthroughs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pricewalkthroughs.each do |pricewalkthrough| %>
+      <tr>
+        <td><%= link_to 'Show', pricewalkthrough %></td>
+        <td><%= link_to 'Edit', edit_pricewalkthrough_path(pricewalkthrough) %></td>
+        <td><%= link_to 'Destroy', pricewalkthrough, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Pricewalkthrough', new_pricewalkthrough_path %>

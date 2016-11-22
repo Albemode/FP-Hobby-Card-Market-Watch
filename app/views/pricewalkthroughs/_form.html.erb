@@ -1,0 +1,17 @@
+<%= form_for(pricewalkthrough) do |f| %>
+  <% if pricewalkthrough.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(pricewalkthrough.errors.count, "error") %> prohibited this pricewalkthrough from being saved:</h2>
+
+      <ul>
+      <% pricewalkthrough.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

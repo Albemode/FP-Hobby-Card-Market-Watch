@@ -1,0 +1,1 @@
+json.array! @vanguards, partial: 'vanguards/vanguard', as: :vanguard

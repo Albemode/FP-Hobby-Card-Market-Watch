@@ -1,0 +1,1 @@
+json.partial! "pricewalkthroughs/pricewalkthrough", pricewalkthrough: @pricewalkthrough

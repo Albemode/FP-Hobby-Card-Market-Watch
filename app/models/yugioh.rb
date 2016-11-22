@@ -1,0 +1,2 @@
+class Yugioh < ApplicationRecord
+end

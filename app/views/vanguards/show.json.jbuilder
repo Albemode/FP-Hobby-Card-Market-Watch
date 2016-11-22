@@ -1,0 +1,1 @@
+json.partial! "vanguards/vanguard", vanguard: @vanguard
