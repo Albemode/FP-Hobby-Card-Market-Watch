@@ -1,0 +1,2 @@
+class Mtgcard < ApplicationRecord
+end

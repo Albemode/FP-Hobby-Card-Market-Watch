@@ -1,0 +1,2 @@
+class Mtgset < ApplicationRecord
+end

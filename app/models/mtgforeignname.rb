@@ -1,0 +1,2 @@
+class Mtgforeignname < ApplicationRecord
+end

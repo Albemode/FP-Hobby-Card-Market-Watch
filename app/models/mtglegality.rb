@@ -1,0 +1,2 @@
+class Mtglegality < ApplicationRecord
+end

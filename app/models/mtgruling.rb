@@ -1,0 +1,2 @@
+class Mtgruling < ApplicationRecord
+end
