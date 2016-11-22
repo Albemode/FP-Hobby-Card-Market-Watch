@@ -6,6 +6,7 @@ class CreatePokemons < ActiveRecord::Migration[5.0]
       t.string  :rarity
       t.string  :booster_set_name
       t.string  :set_name
+      t.string  :reprint
       t.string  :collection
       t.float :price
 

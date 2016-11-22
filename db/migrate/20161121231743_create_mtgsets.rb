@@ -12,7 +12,7 @@ class CreateMtgsets < ActiveRecord::Migration[5.0]
       t.boolean :block
       t.boolean :online_only
       t.string  :booster
-      t.interger :mkm_id
+      t.integer :mkm_id
       t.string  :mkm_name
 
       t.timestamps
