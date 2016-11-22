@@ -2,7 +2,7 @@ class CreateMtgcards < ActiveRecord::Migration[5.0]
   def change
     create_table :mtgcards do |t|
       t.string  :name
-      t.interger :multiverse_id
+      t.integer :multiverse_id
       t.boolean :layout
       t.string  :names
       t.decimal  :mana_cost
@@ -38,7 +38,7 @@ class CreateMtgcards < ActiveRecord::Migration[5.0]
       t.references  :image_url
       t.string  :set
       t.string  :set_name
-      t.interger :id
+      
 
       t.timestamps
     end
