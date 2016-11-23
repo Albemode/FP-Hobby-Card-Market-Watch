@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'ebayr'
 gem 'mtg_sdk'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
